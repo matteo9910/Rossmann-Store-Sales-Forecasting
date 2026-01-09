@@ -312,12 +312,22 @@ scipy>=1.7.0
 ```
 
 ### Data Files (Not Included)
+
+Due to size limitations, the following files are not included in this repository:
+
+**Dataset Files:**
 ```
 rossmann-store-sales/
 ├── train.csv          # Historical sales data
 ├── test.csv           # Test period data
 └── store.csv          # Store metadata
 ```
+Download from: [Kaggle Rossmann Store Sales](https://www.kaggle.com/c/rossmann-store-sales/data)
+
+**Model File:**
+- `rossmann_xgb_platinum.json` (351MB) - Trained XGBoost model
+- **Option 1**: Retrain the model by running [Preprocessing&Testing.ipynb](Preprocessing&Testing.ipynb)
+- **Option 2**: Contact the repository owner for the pre-trained model file
 
 ## Usage
 
